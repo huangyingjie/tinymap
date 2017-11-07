@@ -1,0 +1,23 @@
+{
+  "name": "tinymap",
+  "version": "1.0.0",
+  "description": "tiny map just load raster tile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyingjie/tinymap.git"
+  },
+  "keywords": [
+    "map",
+    "raster"
+  ],
+  "author": "huangyingjie1111@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangyingjie/tinymap/issues"
+  },
+  "homepage": "https://github.com/huangyingjie/tinymap#readme"
+}
