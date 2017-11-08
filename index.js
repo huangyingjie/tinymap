@@ -56,10 +56,10 @@ class Map {
         const height = this.container.offsetHeight;
         center.xPos = this.xPos(center.lng);
         center.yPos = this.yPos(center.lat);
-		const xPosMin = center.xPos - this.getProjDistance(width / 2);
-		const xPosMax = center.xPos + this.getProjDistance(width / 2);
-		const yPosMin = center.yPos - this.getProjDistance(height / 2);
-		const yPosMax = center.yPos + this.getProjDistance(height / 2);
+	const xPosMin = center.xPos - this.getProjDistance(width / 2);
+	const xPosMax = center.xPos + this.getProjDistance(width / 2);
+	const yPosMin = center.yPos - this.getProjDistance(height / 2);
+	const yPosMax = center.yPos + this.getProjDistance(height / 2);
         this.xPosMin = xPosMin;
         this.yPosMin = yPosMin;
         return {
